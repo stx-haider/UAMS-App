@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">UAMS-App</string>
+    <string name="title_activity_main">UAMS-App</string>
+    <string name="package_name">com.uams.app</string>
+    <string name="custom_url_scheme">com.uams.app</string>
+</resources>
