@@ -1,0 +1,1 @@
+(function(){self.addEventListener(`message`,e=>{let{id:t,type:n,payload:r}=e.data;try{if(n===`stringify`){self.postMessage({id:t,result:JSON.stringify(r,null,2)});return}if(n===`parse`){self.postMessage({id:t,result:JSON.parse(r)});return}throw Error(`Unsupported backup operation.`)}catch(e){self.postMessage({id:t,error:e.message||`Could not process this backup.`})}})})();

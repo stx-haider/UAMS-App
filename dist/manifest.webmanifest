@@ -1,0 +1,1 @@
+{"name":"University Attendance System","short_name":"UAS","description":"Offline university attendance management for CR accounts.","start_url":"./","display":"standalone","background_color":"#f5f8fc","theme_color":"#347ff0","lang":"en","scope":"./","icons":[{"src":"uams-logo.png","sizes":"192x192 512x512","type":"image/png","purpose":"any"}]}
